@@ -1,0 +1,3 @@
+psql -h localhost -U postgres -d postgres -c "drop database autoseminovo"
+psql -h localhost -U postgres -d postgres -c "create database autoseminovo"
+psql -h localhost -U postgres -d autoseminovo -a -f basedados.sql

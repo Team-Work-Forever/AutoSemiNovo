@@ -1,0 +1,10 @@
+Tema: Gestão de Stand de Usados
+
+Elementos do Grupo: - 28257 Diogo Manuel Machado Assunção
+			  - 28248 David José Sousa Braga
+
+Levantamento de Requisitos: O Stand AutoSemiNovo tem muitos veículos à sua disposição para venda. Um veículo é composto pelos seguintes atributos: matrícula, preço base, ano de fabrico, quilómetros, cilindrada, potência, número de anos de garantia, número de portas, lotação, emissões de CO2, consumo urbano e número de pneus. Um veículo pode ser uma mota, carro, caravana, camião, autocarro ou carrinha.  Tem um segmento. Apresenta uma condição, uma caixa de mudanças, tipo de combustível, pneus, tração, um motor, uma cor base, pode apresentar uma cor secundária, tem uma cor interior, estofos que também têm uma cor e, por fim, um modelo que tem como atributos o nome do modelo, o stock disponível no Stand e uma descrição. Cada modelo tem associado uma marca que apresenta os mesmos atributos.
+Uma cor tem associada vários tipos de pintura.
+Um pneu tem uma jante e um tipo de pneu, além disso apresenta os seguintes atributos: largura, perfil e diâmetro.
+Uma aquisição tem como atributos a data da compra e um sinal, valor pago pelo cliente para garantir a compra (forma de reservar o/s carro/s). Uma aquisição pode ter várias linhas de Compra que guardam a quantidade de um veículo do mesmo modelo e o preço base do veículo da aquisição, assim sendo, uma linha de compra pode ter mais que um veículo associado. Uma aquisição tem um estado, uma fatura composta pelo preço com IVA, o preço sem IVA, a taxa, a data emissão da fatura e o preço dos extras, um ou mais vendedores e um cliente.
+Um vendedor tem como atributos o nome, o apelido, o número de telefone e a morada. Um cliente apresenta os mesmos atributos e tem ainda o NIF, a data de nascimento e o número do cartão de cidadão.
